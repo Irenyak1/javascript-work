@@ -8,3 +8,11 @@ function addFourNumbers(){
     console.log("The total is: " + total);
     }
     addFourNumbers();
+
+    function addFourNumberWithParameters(numberone, numbertwo, numberthree, numberfour){
+  
+        result = numberone + numbertwo + numberthree + numberfour;
+        
+        console.log(result);
+      }
+       addFourNumberWithParameters(7, 8, 9, 90);
