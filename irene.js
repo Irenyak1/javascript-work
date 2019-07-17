@@ -1,44 +1,53 @@
-function addFourNumbers(){
-    //function without parameters to add four numbers
+/*
+A non parameterized function to add four numbers and print the 
+total, with declared variables and assigned values respectively
+
+*/
+function addFourNumbers()
+{
+    
     var number1 = 20;
-    // variable number1 with assigned value of 20
     var number2 = 40;
-    // variable number2 with assigned value of 40
     var number3 = 70;
-    // variable number3 with assigned value of 70
     var number4 = 34;
-    // variable number4 with assigned value of 34
     var total = number1 + number2 + number3 + number4;
-    // variable total assigned the result of adding the four variables
     
     console.log("The total is: " + total);
-    //printing the total value to the console
-    }
-    addFourNumbers();
-    // calling the function "addFourNumbers" which adds the four variables
-
-function addFourNumberWithParameters(numberone, numbertwo, numberthree, numberfour){
-    //function with four parameters to add four numbers
-
-   var result = numberone + numbertwo + numberthree + numberfour;
-    // variable result assigned the sum of the four variables
     
-    console.log("The result is: " +result);
-    //printing the total value to the console
     }
-    addFourNumberWithParameters(7, 8, 9, 90);
-    // calling the function "addFourNumberWithParameters" which adds the four parameters passed
+    // calling the function "addFourNumbers" which adds the four variables
+    addFourNumbers();
+    
 
-function printOddNumbers(){
-    //function to print odd numbers between 50 and 100
-    for (numberone = 50; numberone <= 100; numberone++){
-    // for loop containing variable numberone with a declaration, condition and increment statements
-        if (numberone%2 != 0){
-        // if statement wit a condition for outputting odd numbers
-        console.log(numberone);
-        // printing the odd numbers to the console
+/* 
+A four parameterized function to add four numbers
+and printing the result to the console
+*/
+function addFourNumberWithParameters(numberOne, numberTwo, numberThree, numberFour)
+{
+   var result = numberOne + numberTwo + numberThree + numberFour;
+    console.log("The result is: " +result);
+    
+    }
+    // calling the function "addFourNumberWithParameters" which adds the four parameters passed
+    addFourNumberWithParameters(7, 8, 9, 90);
+    
+
+/* 
+A function to print odd numbers between 50 and 100 with a for loop
+iterating between 50 and 100 and an if statement to output odd
+numbers
+*/
+function printOddNumbers()
+{
+    for (numberOne = 50; numberOne <= 100; numberOne++)
+    {
+        if (numberOne%2 != 0)
+        {
+        console.log(numberOne);
         }
     }
     }
-    printOddNumbers();
     // calling the function "printOddNumbers" which prints odd numbers between 50 and 100
+    printOddNumbers();
+
