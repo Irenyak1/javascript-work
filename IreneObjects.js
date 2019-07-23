@@ -13,13 +13,11 @@ var cat = {
     feed:function(){
         var meal = "Kitty likes milk and meat!";
         return meal;
-
     },
     // declaration of a function sleep with a return statement
     sleep:function(){
         var nap = "Kitty normally sleeps at 2pm everyday";
         return nap;
-
     }
 }
 
@@ -43,14 +41,11 @@ var pen = {
     write:function(){
         var noSkip = "My pen writes without skipping";
         return noSkip;
-
-
     },
     // declaration of a function break with a return statement
     break:function(){
         var work = "I can not use my pen because it is broken";
         return work;
-
     }
 }
 //printing the out put of the methods to the console
@@ -73,16 +68,11 @@ var puppy ={
     play:function(){
       var jump = "My puppy jumps so high while playing";
       return jump;
-        
-        
-
     },
     // declaration of a function bark with a return statement
     bark:function(){
         var tough = "barks so much at strangers, it is a tough puppy";
         return tough;
-
-
     }
 }
 //printing the out put of the methods to the console
@@ -106,17 +96,12 @@ var donkey ={
     eat:function(){
         var diet = "likes hay and water";
         return diet;
-
-
     },
     // declaration of a function work with a return statement
     work:function(){
         var job = "transports all the laggage from the garden";
         return job;
-
     }
-
-
 }
 //printing the out put of the methods to the console
 console.log(donkey.name+" "+donkey.eat());
@@ -138,13 +123,11 @@ var cow ={
     graze:function(){
         var feeds = "likes feeding on grass";
         return feeds;
-
     },
     // declaration of a function run with a return statement
     run:function(){
         var sprint = "can run faster than all the cows";
         return sprint;
-
     }
 }
 //printing the out put of the methods to the console
