@@ -134,5 +134,3 @@ var cow ={
 console.log(cow.name+" "+"is a "+cow.gender+" "+cow.color+" cow born in  "+cow.DoB+"."+"It is owned by  "+cow.owner+ " "+"and "+cow.graze());
 console.log(cow.name+" "+cow.run());
   
-  
-  
