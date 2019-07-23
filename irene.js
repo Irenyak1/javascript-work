@@ -48,3 +48,53 @@ function printOddNumbers()
     // calling the function "printOddNumbers" which prints odd numbers between 50 and 100
     printOddNumbers();
     
+
+    // 23/07/2019 OOP
+
+    var student = {
+        name :"Osman",
+        gender: "male",
+        DoB :1970,
+
+        greet: function(){
+        var hey = "how are you my students"; // behaviour
+        return hey;
+        }
+}
+    console.log(student.greet());
+    document.write(student.greet())
+    console.log(student.name);
+    console.log(Object.keys(student));// list all the keys in object student
+    console.log(Object.values(student));// list all types of keys in object student
+
+    // another object
+    // function a (ab, cd)
+    // {
+    //   return ab+cd;
+      
+    // }
+    // function b(){
+    // return a(30, 20)+20;
+      
+    // }
+    
+    // console.log(b());
+  
+  
+    //another object
+  function a (ab, cd)
+  {
+    var c = ab + cd
+    return c;
+    
+  }
+  function b(){
+    
+    var d = a(30, 20);
+    var e = d+a(20,30);
+   return e
+    
+  }
+  
+  console.log(b());
+  
