@@ -97,4 +97,45 @@ function printOddNumbers()
   }
   
   console.log(b());
+  // functions
+   function house(location, type, color, roofType, numberOfRooms){
+    this.location = location;
+    this.type = type;
+    this.color = color;
+    this.roofType = roofType;
+    this.numberOfRooms = numberOfRooms;
+
+  }
+  
+  var house1 = new house("Canaan sites", "Bangalow", "Maroon", "Rectangular", 4);
+  var house2 = new house("Oakland", "Bangalow", "Maroon", "Rectangular", 4);
+  
+  console.log(house1.location);
+  console.log(house1);
+  
+  for (let key in house1){
+    console.log(house1[key])
+    document.write('<p> <b>'+house1[key]+'</b></p>')
+  }
+  
+  // // house
+  // function home(var1, var2, var3, var4, var5){
+  //   this.var1 = var1;
+  //   this.var2 = var2;
+  //   this.var3 = var3;
+  //   this.var4 = var4;
+  //   this.var5 = var5;
+  //   var feed = funct
+  // }
+  
+  // var house3 = new home("Bangalow", "Tank hill", "lubobbo close", "Irene", "gray");
+  
+  // for (let key in house3){
+  //   console.log(house3[key])
+  //   console.log("House3 properties are: "+house3[key])
+  // }
+  
+  
+
+
   
