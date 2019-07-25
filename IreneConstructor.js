@@ -19,7 +19,7 @@ function cat(name, gender, color, DoB, food){
   var cat2 = new cat("Tom", "male", "black", 2018, "meat" );
   var cat3 = new cat("Deb", "female", "chocolate-brown",2018, "rats");
   
-  // looping through the three cat objects properties and printing out the values  
+  // Looping through the three cat objects properties and printing out the values  
   for (let key in cat1){
     console.log(cat1[key])
     console.log("The description of cat1: "+cat1[key])
@@ -49,7 +49,7 @@ function pen(name, color, brand, DoM, shape){
     var penB = new pen("Compo", "white", "compo", 2018, "pointed");
     var penC = new pen("Bic", "blue", "Bic", 2018, "round");
 
-     // looping through the three pen objects properties and printing out the values  
+     // Looping through the three pen objects properties and printing out the values  
     for (let key in penA){
         console.log(penA[key])
         console.log("The description of penA: "+penA[key])
@@ -79,7 +79,7 @@ function puppy(name, gender, color, DoB, hobby){
     var puppyY = new puppy("Mexie", "male", "black", 2019, "sitting on the couch");
     var puppyZ = new puppy("Tommy", "male", "brown", 2019, "jumping up and down");
 
- // looping through the three puppy objects properties and printing out the values 
+ // Looping through the three puppy objects properties and printing out the values 
   for (let key in puppyX){
     console.log(puppyX[key])
     console.log("The description of puppyX: "+puppyX[key])
@@ -109,7 +109,7 @@ function donkey(name, gender, color, DoB, origin){
     var donkeyTwo = new donkey("Mello", "female", "Light-gray", 2018,"China");
     var donkeyThree = new donkey("Aspen", "Male", "gray", 2016,"Uganda");
 
-  // looping through the three donkey objects properties and printing out the values 
+  // Looping through the three donkey objects properties and printing out the values 
   for (let key in donkeyOne){
     console.log(donkeyOne[key])
     console.log("The description of donkeyOne: "+donkeyOne[key])
@@ -141,7 +141,7 @@ function building(name, location, color, fashion, owner){
     var buildingEast = new building("Mabirizi", "city square", "green", "rectangular", "Shopping mall");
     var buildingWest = new building("Namaganda", "Down town", "Brown", "rectangular", "Business mall");
 
-   // looping through the three building objects properties and printing out the values 
+   // Looping through the three building objects properties and printing out the values 
   for (let key in buildingNorth){
     console.log(buildingNorth[key])
     console.log("The description of buildingNorth: "+buildingNorth[key])
