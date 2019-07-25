@@ -1,5 +1,5 @@
 /* 
-  Cat object constructor
+  Declaring object cat and assigning it five properties
 */
 function cat(name, gender, color, DoB, food){
     this.name = name;
@@ -14,12 +14,12 @@ function cat(name, gender, color, DoB, food){
     
   }
   
-  // instantiation of objects
+  // Instantiating 3 cat objects with constructors
   var cat1 = new cat("Kitty", "Female", "white", 2019, "milk");
   var cat2 = new cat("Tom", "male", "black", 2018, "meat" );
   var cat3 = new cat("Deb", "female", "chocolate-brown",2018, "rats");
   
-  // iteration through the object properties and printing out results  
+  // looping through the three cat objects properties and printing out the values  
   for (let key in cat1){
     console.log(cat1[key])
     console.log("The description of cat1: "+cat1[key])
@@ -34,7 +34,7 @@ function cat(name, gender, color, DoB, food){
   }
 
 /* 
-  pen object constructor
+  Declaring object pen and assigning it five properties
 */
 function pen(name, color, brand, DoM, shape){
     this.name = name;
@@ -44,12 +44,12 @@ function pen(name, color, brand, DoM, shape){
     this.shape = shape;
 }
 
-    // instantiation of objects
+    // Instantiating 3 pen objects with constructors
     var penA = new pen("silver wave", "blue", "smile", 2018, "pointed");
     var penB = new pen("Compo", "white", "compo", 2018, "pointed");
     var penC = new pen("Bic", "blue", "Bic", 2018, "round");
 
-    // iteration through the object properties and printing out results  
+     // looping through the three pen objects properties and printing out the values  
     for (let key in penA){
         console.log(penA[key])
         console.log("The description of penA: "+penA[key])
@@ -64,7 +64,7 @@ function pen(name, color, brand, DoM, shape){
     }
     
 /* 
-  puppy object constructor
+  Declaring object puppy and assigning it five properties
 */
 function puppy(name, gender, color, DoB, hobby){
     this.name = name;
@@ -74,12 +74,12 @@ function puppy(name, gender, color, DoB, hobby){
     this.hobby = hobby;
 }
 
-  // instantiation of objects
+   // Instantiating 3 puppy objects with constructors
     var puppyX = new puppy("Tommy", "male", "brown", 2019, "wagging its tail");
     var puppyY = new puppy("Mexie", "male", "black", 2019, "sitting on the couch");
     var puppyZ = new puppy("Tommy", "male", "brown", 2019, "jumping up and down");
 
-  // iteration through the object properties and printing out results  
+ // looping through the three puppy objects properties and printing out the values 
   for (let key in puppyX){
     console.log(puppyX[key])
     console.log("The description of puppyX: "+puppyX[key])
@@ -94,7 +94,7 @@ function puppy(name, gender, color, DoB, hobby){
   }
 
 /* 
-  donkey object constructor
+  Declaring object donkey and assigning it five properties
 */
 function donkey(name, gender, color, DoB, origin){
     this.name = name;
@@ -104,12 +104,12 @@ function donkey(name, gender, color, DoB, origin){
     this.origin = origin;
   }
 
-  // instantiation of objects
+   // Instantiating 3 donkey objects with constructors
     var donkeyOne = new donkey("Jayde", "female", "gray", 2017,"Kenya");
     var donkeyTwo = new donkey("Mello", "female", "Light-gray", 2018,"China");
     var donkeyThree = new donkey("Aspen", "Male", "gray", 2016,"Uganda");
 
-  // iteration through the object properties and printing out results  
+  // looping through the three donkey objects properties and printing out the values 
   for (let key in donkeyOne){
     console.log(donkeyOne[key])
     console.log("The description of donkeyOne: "+donkeyOne[key])
@@ -126,22 +126,22 @@ function donkey(name, gender, color, DoB, origin){
   }
 
 /* 
-  building object constructor
+  Declaring object builder and assigning it five properties
 */
-function building(name, location, color, type, owner){
+function building(name, location, color, fashion, owner){
     this.name = name;
     this.location = location;
     this.color = color;
-    this.type = type;
+    this.fashion = fashion;
     this.owner = owner;
   }
 
-  // instantiation of objects
-    var buildingNorth = new building("Mapeera", "city square", "blue", "flat", "Centenary bank");
-    var buildingEast = new building("Mabirizi", "city square", "green", "flat", "Shopping mall");
-    var buildingWest = new building("Namaganda", "Down town", "Brown", "flat", "Business mall");
+  // Instantiating 3 building objects with constructors
+    var buildingNorth = new building("Mapeera", "city square", "blue", "triangular", "Centenary bank");
+    var buildingEast = new building("Mabirizi", "city square", "green", "rectangular", "Shopping mall");
+    var buildingWest = new building("Namaganda", "Down town", "Brown", "rectangular", "Business mall");
 
-  // iteration through the object properties and printing out results  
+   // looping through the three building objects properties and printing out the values 
   for (let key in buildingNorth){
     console.log(buildingNorth[key])
     console.log("The description of buildingNorth: "+buildingNorth[key])
